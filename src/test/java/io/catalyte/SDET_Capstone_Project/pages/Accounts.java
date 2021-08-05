@@ -27,6 +27,10 @@ public class Accounts {
     return body.getText().contains(email);
   }
 
+  /**
+   * Gets all of the visibly displayed text within the body tag element of the page
+   * @return - String representing the visible text on the current page
+   */
   public String getBodyText() {
     driver.get(ACCOUNTS_PATH);
     return body.getText();

@@ -2,6 +2,8 @@ package io.catalyte.SDET_Capstone_Project.test.selenium;
 
 import static io.catalyte.SDET_Capstone_Project.constants.Paths.SIGNUP_PATH;
 import static io.catalyte.SDET_Capstone_Project.constants.Paths.TODOS_PATH;
+import static io.catalyte.SDET_Capstone_Project.constants.ToastNotificationMessages.SUCCESSFUL_LOGIN;
+import static io.catalyte.SDET_Capstone_Project.constants.ToastNotificationMessages.UNSUCCESSFUL_SIGNUP;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
@@ -80,7 +82,7 @@ public class SignupTest {
   @Test
   public void testSuccessfulToastNotification() {
     submitNewRandomUser();
-    assertTrue(todosPageInst.stringIsDisplayed("User is logged in"));
+    assertTrue(todosPageInst.stringIsDisplayed(SUCCESSFUL_LOGIN));
   }
 
   @Test
@@ -101,7 +103,7 @@ public class SignupTest {
   public void testUserEntersExistingEmailAndGetsAnErrorToastNotification() {
     String email = submitNewRandomUser();
     signupPageInst.submitUser(email, "password");
-    assertTrue(signupPageInst.stringIsDisplayed("Could not sign up"));
+    assertTrue(signupPageInst.stringIsDisplayed(UNSUCCESSFUL_SIGNUP));
   }
 
   @After

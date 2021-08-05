@@ -81,6 +81,17 @@ public class Todos {
   }
 
   /**
+   * Method to edit to-do item, provided there is one in the list
+   * @param edit - String rename the to-do item to
+   */
+  public void editTodo(String edit) {
+    actions.moveToElement(label).perform();
+    actions.doubleClick(label).perform();
+    actions.sendKeys(edit);
+    actions.sendKeys(Keys.ENTER);
+  }
+
+  /**
    * Method to check whether the a String has been displayed on the to-do page
    * @param str - The String to check for
    * @return boolean
@@ -95,6 +106,22 @@ public class Todos {
    */
   public boolean todoHasLineThroughIt() {
     return label.getCssValue("text-decoration").contains("line-through");
+  }
+
+  /**
+   * Checks if the checkbox element has been clicked or not
+   * @return - boolean
+   */
+  public boolean checkBoxIsChecked() {
+    return checkBox.isSelected();
+  }
+
+  /**
+   * Gets the current size of the to-do list
+   * @return int - size of the to-do list
+   */
+  public int getTodoListSize() {
+    return todos.size();
   }
 
   public List<String> todosToString() {
