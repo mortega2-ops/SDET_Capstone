@@ -3,8 +3,8 @@
 ## Description
 API Tests written in Java with the rest-assured library & end to end tests written in Selenium for Java. Done for Catalyte SDET Training program excercise. Done for Catalyte SDET Training program excercise. Used to test API status codes and response objects.  
 
-The postman collection was the first part of the assignment and can be found here:
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/37f2482c34a6d53e1a02?action=collection%2Fimport)
+The postman collection was the first part of the assignment and can be found here:  
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://god.postman.co/run-collection/28c0daef8a730170c673?action=collection%2Fimport)
 
 ## Test Plan
 [https://docs.google.com/document/d/1_bmnqmlJJuzMThbo5d9_5zm6jkGcUGug2Y36qNkwnM4/edit?usp=sharing](https://docs.google.com/document/d/1_bmnqmlJJuzMThbo5d9_5zm6jkGcUGug2Y36qNkwnM4/edit?usp=sharing)  
