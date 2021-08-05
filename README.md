@@ -10,6 +10,7 @@ The postman collection was the first part of the assignment and can be found her
 [https://docs.google.com/document/d/1_bmnqmlJJuzMThbo5d9_5zm6jkGcUGug2Y36qNkwnM4/edit?usp=sharing](https://docs.google.com/document/d/1_bmnqmlJJuzMThbo5d9_5zm6jkGcUGug2Y36qNkwnM4/edit?usp=sharing)  
 
 ## Requirements
+[https://docs.google.com/document/d/1duuKGfJCxGWkxBiUedhFICthPqfAByQjg5OtkFy8fvc/edit?usp=sharing](https://docs.google.com/document/d/1duuKGfJCxGWkxBiUedhFICthPqfAByQjg5OtkFy8fvc/edit?usp=sharing)  
 
 ## Defect Report
 
