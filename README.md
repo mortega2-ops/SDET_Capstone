@@ -13,6 +13,7 @@ The postman collection was the first part of the assignment and can be found her
 [https://docs.google.com/document/d/1duuKGfJCxGWkxBiUedhFICthPqfAByQjg5OtkFy8fvc/edit?usp=sharing](https://docs.google.com/document/d/1duuKGfJCxGWkxBiUedhFICthPqfAByQjg5OtkFy8fvc/edit?usp=sharing)  
 
 ## Defect Report
+[https://docs.google.com/document/d/1borjlqEXYO01FzzQS96cmysqqPTvkDVn3jNXqryyH9U/edit?usp=sharing](https://docs.google.com/document/d/1borjlqEXYO01FzzQS96cmysqqPTvkDVn3jNXqryyH9U/edit?usp=sharing)  
 
 ## Dependencies
 This project runs tests against a todo website running on localhost:3000.
