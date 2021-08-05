@@ -307,7 +307,7 @@ public class TodosApiTest {
         .then()
         .statusCode(201);
   }
-  
+
   @After
   public void afterMethod() {
     delete("http://localhost:3000/todos");
